@@ -39,6 +39,8 @@ model Customer {
   updatedAt    DateTime @updatedAt
 
   Order Order[]
+
+  
 }
 
 enum OrderStatus {
